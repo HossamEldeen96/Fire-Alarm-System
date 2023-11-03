@@ -1,0 +1,1 @@
+void LCD_Init(void);void LCD_Clear(void);/**line 0:1 cell 0:15 **/void LCD_GoTo(u8 line,u8 cell);void LCD_WriteString(u8*str);void LCD_WriteNumber(s32 num);void LCD_WriteBinary(u8 num);void LCD_WriteHex(u8 num);void LCD_WriteChar(u8 ch);while(1){	LCD_GoTo(0,0);	LCD_WriteString("char : A");	LCD_GoTo(1,0);	LCD_WriteString("ASCII : 65");}
